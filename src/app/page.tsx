@@ -1,12 +1,12 @@
 import HomePageNavbar from "@/app/home/HomePageNavbar";
+import Hero from "@/app/home/Hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center font-sans bg-gamesNeutral">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-gamesNeutral sm:items-start">
-          <HomePageNavbar />
-      </main>
-    </div>
+    <main className="min-h-screen bg-gamesNeutral overflow-x-hidden">
+      <HomePageNavbar />
+      <Hero />
+    </main>
   );
 }
 
