@@ -13,7 +13,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Level Up Lounge",
+  title: "The Arena",
   description: "Ultimate Lounge for Level Up",
 };
 
