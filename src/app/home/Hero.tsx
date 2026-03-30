@@ -53,11 +53,8 @@ const Hero = () => {
                             className="object-cover"
                             priority
                         />
-                        {/* Overlay to match the contrast of the design */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
                     </div>
-
-                    {/* Floating accents if needed, but let's keep it clean as per image */}
                 </div>
             </div>
         </section>
