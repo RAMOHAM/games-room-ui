@@ -24,7 +24,7 @@ const ActivityCard = ({ title, description, imageSrc, status, Icon, color }: Act
     const bgColor = colorClasses[color].split(" ")[1];
 
     return (
-        <div className="bg-[#15151A] rounded-[32px] overflow-hidden border border-white/5 flex flex-col h-full transition-all duration-300 hover:border-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] group">
+        <div className="bg-gamesNeutralLight rounded-[32px] overflow-hidden border border-white/5 flex flex-col h-full transition-all duration-300 hover:border-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] group">
             <div className="relative aspect-[16/10] w-full overflow-hidden">
                 <Image
                     src={imageSrc}

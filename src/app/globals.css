@@ -15,6 +15,7 @@
   --color-gamesSecondary: #FF007A;
   --color-gamesTertiary: #ADFF00;
   --color-gamesNeutral: #0D0D12;
+    --color-gamesNeutralLight: #1E1E24;
 }
 
 @theme inline {

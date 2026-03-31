@@ -16,7 +16,7 @@ const Footer = () => {
         
         {/* Right Side: Copyright */}
         <div className="text-[14px] text-gray-500 font-sans">
-          © 2024 The Arena. All Rights Reserved.
+          © 2026 The Arena. All Rights Reserved.
         </div>
       </div>
     </footer>

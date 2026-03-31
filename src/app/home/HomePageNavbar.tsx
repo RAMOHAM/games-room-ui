@@ -16,9 +16,11 @@ const HomePageNavbar = () => {
                         <Link key={index} href="" className="text-gray-300 hover:text-gamesPrimary transition-colors">{item}</Link>
                     ))}
                 </div>
-                <Button className="bg-gamesPrimary hover:bg-gamesPrimary/90 text-black rounded-lg px-8 py-5 text-sm font-bold font-sans">
-                    Book Now
-                </Button>
+                <Link href="/sign-in" className="hidden md:block">
+                    <Button className="bg-gamesPrimary hover:bg-gamesPrimary/90 text-black rounded-lg px-8 py-5 text-sm font-bold font-sans">
+                        Sign in
+                    </Button>
+                </Link>
             </nav>
         </header>
     );

@@ -10,7 +10,7 @@ const BookingComponent = () => {
 
   return (
     <section className="py-20 px-6 md:px-12 w-full flex justify-center">
-      <div className="bg-[#1E1E24] rounded-[32px] md:rounded-[40px] p-8 md:p-14 w-full max-w-4xl relative overflow-hidden flex flex-col gap-10 shadow-xl">
+      <div className="bg-gamesNeutralLight rounded-[32px] md:rounded-[40px] p-8 md:p-14 w-full max-w-4xl relative overflow-hidden flex flex-col gap-10 shadow-xl">
         {/* Header */}
         <div className="text-center">
           <h2 className="text-4xl md:text-[44px] font-bold font-heading text-white mb-4 tracking-tight">
