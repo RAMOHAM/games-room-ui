@@ -9,7 +9,7 @@ const BookingComponent = () => {
   const guestOptions = ["2 Guests", "4 Guests", "6 Guests", "Group (10+)"];
 
   return (
-    <section className="py-20 px-6 md:px-12 w-full flex justify-center">
+    <section className="py-20 px-6 md:px-12 mb-10 w-full flex justify-center">
       <div className="bg-gamesNeutralLight rounded-[32px] md:rounded-[40px] p-8 md:p-14 w-full max-w-4xl relative overflow-hidden flex flex-col gap-10 shadow-xl">
         {/* Header */}
         <div className="text-center">

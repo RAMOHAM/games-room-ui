@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="border-t border-[#1C1C24] bg-gamesNeutral py-10 mt-12 w-full">
+    <footer className="border-t border-[#1C1C24] bg-gamesNeutral py-10 w-full">
       <div className="max-w-[1400px] w-full mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left Side: Brand */}
         <div className="text-gamesPrimary font-bold font-heading text-xl">
